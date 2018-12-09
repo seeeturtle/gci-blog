@@ -4,7 +4,7 @@
 
 {% block body %}
   <h1>{{ post.title }}</h1>
-  <p>tags: {{ post.tags }}</p>
+  <p>tags: {{ post.tags|map(attribute='pk') }}</p>
   <div class="content">
     {{ post.content|safe }}
   </div>
