@@ -1,11 +1,12 @@
 {% extends "base.html.jinja2" %}
 
-{% block title %}Tag: {{ tag.pk }}{% endblock %}
+{% block title %}Post tagged by {{ tag.pk }}{% endblock %}
 
 {% block body %}
-   <ul>
-   {% for post in posts %}
-     <li><a href="{% url "post", post %}">{{ post.title }}</a></li>
-   {% endfor %}
-   </ul>
+  <h1>Post tagged by {{ tag.pk }}</h1>
+  <ul>
+  {% for post in posts %}
+    <li><a href="{% url "post", post %}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
 {% endblock %}
