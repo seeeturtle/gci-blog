@@ -1,0 +1,6 @@
+name: moban
+group: moremoban
+host: github
+description: Yet another jinja2 cli command for static text generation
+tasks:
+  - malformed-yaml

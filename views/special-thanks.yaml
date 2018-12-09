@@ -1,0 +1,5 @@
+path: /special-thanks
+template: special-thanks
+context:
+  dynamic:
+    mentors: session.query(Mentor).all()

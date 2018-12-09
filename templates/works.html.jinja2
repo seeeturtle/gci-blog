@@ -1,0 +1,21 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}Works{% endblock %}
+
+{% block body %}
+  <h1>Works</h1>
+  {% for repo in repos %}
+    <h3>
+      <a href="{{ repo.host.repo|format(repo.group, repo.name) }}">
+        {{ "%s/%s"|format(repo.group, repo.name) }}
+      </a>
+    </h3>
+    <p>what is this?: {{ repo.description }}</p>
+    <p>related tasks:</p>
+    <ul>
+    {% for task in repo.tasks %}
+      <li><a href="{% url "task", task %}">{{ task.description }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+{% endblock %}

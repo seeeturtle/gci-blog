@@ -1,0 +1,6 @@
+description: Added support for importing data from PostgreSQL and made frame for other databases.
+commits:
+  - add-support-for-external-database
+PRs:
+  - add-support-for-external-database
+id: 6680871714160640

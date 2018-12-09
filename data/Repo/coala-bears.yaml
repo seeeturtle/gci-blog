@@ -1,0 +1,7 @@
+name: coala-bears
+group: coala
+host: github
+description: Bears for coala
+tasks:
+  - remove-no-cover-https
+  - remove-no-cover-pysafety

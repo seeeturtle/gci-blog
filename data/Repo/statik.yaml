@@ -1,0 +1,6 @@
+name: statik
+group: thanethomson
+host: github
+description: Multi-purpose static web site generator aimed at developers.
+tasks:
+  - connect-pg

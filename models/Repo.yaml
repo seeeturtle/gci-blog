@@ -1,0 +1,5 @@
+name: String
+group: String
+host: Host
+description: Text
+tasks: Task[]

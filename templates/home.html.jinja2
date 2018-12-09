@@ -1,0 +1,12 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}seeeturtle's blog{% endblock %}
+
+{% block body %}
+<h1>Home</h1>
+<ul>
+  <li><a href="{% url "posts" %}">Posts</a></li>
+  <li><a href="{% url "works" %}">Works</a></li>
+  <li><a href="{% url "special-thanks" %}">Special Thanks</a></li>  
+</ul>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}Special Thanks{% endblock %}
+
+{% block body %}
+  <h1>Special Thanks</h1>
+  <p>I really appreciate all the mentors who participated in Google Code-in:</p>
+  <ul>
+    {% for mentor in mentors %}
+      <h4><li><a href="{{ mentor.host.profile|format(mentor.id) }}">@{{ mentor.id }}</a></li></h4>
+    {% endfor %}
+  </ul>
+{% endblock %}

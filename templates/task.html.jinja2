@@ -1,0 +1,23 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}{{ task.description }}{% endblock %}
+
+{% block body %}
+  <h3>What I have done:<br>{{ task.description }}</h3>
+  <h4>related commits:</h4>
+  <h4>
+    <ul>
+    {% for commit in task.commits %}
+      <li><a href="{{commit.url}}">{{commit.sha[:6]}}</a></li>
+    {% endfor %}
+    </ul>
+  </h4>
+  <h4>related PRs:</h4>
+  <h4>
+    <ul>
+      {% for PR in task.PRs %}
+        <li><a href="{{PR.url}}">#{{PR.id}}</a></li>
+      {% endfor %}
+    </ul>
+  </h4>
+{% endblock %}

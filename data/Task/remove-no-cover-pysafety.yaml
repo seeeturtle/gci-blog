@@ -1,0 +1,6 @@
+description: Removed generic no cover from PySafetyBear
+commits:
+  - remove-no-cover-pysafety
+PRs:
+  - remove-no-cover-pysafety
+id: 5090789475483648

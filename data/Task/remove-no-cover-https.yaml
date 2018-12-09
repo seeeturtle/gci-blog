@@ -1,0 +1,6 @@
+description: Removed generic no cover from HTTPSBear
+commits:
+  - remove-no-cover-https
+PRs:
+  - remove-no-cover-https
+id: 6278885877481472

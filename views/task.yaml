@@ -1,0 +1,5 @@
+path:
+  template: /tasks/{{ task.id }}
+  for-each:
+    task: session.query(Task).all()
+template: task

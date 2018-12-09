@@ -1,0 +1,6 @@
+description: Fixed pyflakes to ignore import aliased with underscore
+commits:
+  - mark-importation-underscore
+PRs:
+  - mark-importation-underscore
+id: 4527631081930752

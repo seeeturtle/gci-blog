@@ -1,0 +1,5 @@
+path: /works
+template: works
+context:
+  dynamic:
+    repos: session.query(Repo).all()

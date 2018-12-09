@@ -1,0 +1,5 @@
+path: /posts
+template: posts
+context:
+  dynamic:
+    posts: session.query(Post).order_by(Post.date).all()

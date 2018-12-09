@@ -1,0 +1,8 @@
+name: pyflakes
+group: PyCQA
+host: github
+description: A simple program which checks Python source files for errors
+tasks:
+  - incorrect-import-with-as
+  - unparsed-all
+  - exclude-import-with-underscore

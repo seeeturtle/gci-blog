@@ -1,0 +1,4 @@
+description: String
+commits: Commit[]
+PRs: PullRequest[]
+id: String  # id in task url

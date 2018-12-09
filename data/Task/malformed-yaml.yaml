@@ -1,0 +1,6 @@
+description: "Alert users the line number where the value is empty (not the key!)"
+commits:
+  - report-location
+PRs:
+  - report-location
+id: 6611646974787584

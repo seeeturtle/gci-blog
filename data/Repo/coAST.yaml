@@ -1,0 +1,7 @@
+name: coAST
+group: coala
+host: github
+description: Universal and language-independent abstract syntax tree
+tasks:
+  - add-property
+  - add-toml

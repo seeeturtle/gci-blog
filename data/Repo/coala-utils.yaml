@@ -1,0 +1,6 @@
+name: coala-utils
+group: coala
+host: gitlab
+description: Utilities like decorators and stuff for coala - enjoy :)
+tasks:
+  - moban-sync

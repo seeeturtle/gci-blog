@@ -1,0 +1,8 @@
+path:
+  template: /tags/{{ tag.pk }}
+  for-each:
+    tag: session.query(Tag).all()
+template: tag-post
+context:
+  for-each:
+    posts: session.query(Post).filter(Post.tags.any(pk=tag.pk)).all()

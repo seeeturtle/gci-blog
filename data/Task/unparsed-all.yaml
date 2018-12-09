@@ -1,0 +1,6 @@
+description: Made pyflakes to handle various __all__s.
+commits:
+  - support-more-all
+PRs:
+  - support-more-all
+id: 5441106658459648
