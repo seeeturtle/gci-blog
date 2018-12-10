@@ -1,0 +1,13 @@
+html{
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+a{
+    color: #cbf05d;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b6d853;
+    text-decoration: underline;
+}
