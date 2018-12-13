@@ -1,10 +1,13 @@
----
+***
+
 title: How I get into GCI
 date: 2018-12-09
 tags:
-  - gci
-  - start
----
+
+- gci
+- start
+
+***
 
 It was last year winter that I found Google Code-in. At that time, I was not passionate with programing.
 I need someone to talk with me and work with me. However, by chance, I saw Google Code-in and thought: 

@@ -1,4 +1,6 @@
-description: Added datatypes attribute to Language model and wrote it for golang.
+description: >
+    Added datatypes attribute to Language model
+    and wrote it for golang.
 commits:
   - add-datatypes-attribute
   - add-golang-datatypes

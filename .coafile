@@ -1,0 +1,17 @@
+[all]
+bears = LineCountBear, coalaBear
+files = **.yml, **.yaml, **.py, **.md, **.css
+max_lines_per_file = 80
+[all.yaml]
+bears = YAMLLintBear
+files = **.yml, **.yaml
+[all.python]
+bears = PycodestyleBear
+files = **.py
+language = all.python
+[all.markdown]
+bears = TextLintBear, MarkdownBear
+files = **.md
+[all.css]
+bears = CSSLintBear
+files = **.css

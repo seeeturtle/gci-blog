@@ -1,11 +1,14 @@
----
+***
+
 title: Sprint in Pycon
 date: 2018-12-09
 tags:
-  - pycon
-  - sprint
-  - aiodocker
----
+
+- pycon
+- sprint
+- aiodocker
+
+***
 
 Have you ever heard about **sprint**? Sprint is a event of Pycon that aims to contribute to OSS project with maintainers of the project.
 I think the first contribution I made was from sprint. It was August, 2017. I went to my first conference, Pycon Korea. The event was really

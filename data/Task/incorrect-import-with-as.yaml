@@ -1,4 +1,6 @@
-description: Fixed pyflakes incorrect with submodule importation with aliased import.
+description: >
+    Fixed pyflakes incorrect with
+    submodule importation with aliased import.
 commits:
   - mark-submodule-importation
 PRs:
