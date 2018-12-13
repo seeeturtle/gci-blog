@@ -1,13 +1,10 @@
-***
-
+---
 title: Making branch
 date: 2018-12-09
 tags:
-
-- git
-- branch
-
-***
+  - git
+  - branch
+---
 
 One of useful tip I got from Google Code-in was making branch. Mentors told me to
 make a branch in your forked repository and send PR from that branch. Yeah, you can think this is
