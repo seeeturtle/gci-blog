@@ -2,3 +2,5 @@ public/
 
 **/__pycache__/
 *.pyc
+
+*.orig
